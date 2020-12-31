@@ -1,0 +1,47 @@
+.cards{
+    width: 90px;
+    height: 80px;
+    background-color: brown;
+    border: 1px solid blue;
+    padding: 2%;
+    margin: 2%;
+    font-size: 30px;
+    color: white;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+
+
+.cards:hover{
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:  -1px 1px #77aaff,
+         -2px 2px black,
+         -3px 3px black,
+         -4px 4px black,
+         -5px 5px black;
+    cursor: pointer;
+}
+
+.products
+{
+    width: 10 rem;
+    height: 10 rem;
+}
+
+
+.Card-section {
+    min-width: 250;
+    min-height: 250;
+    max-width: 250;
+    max-height: 250;
+    overflow: hidden;
+    margin: 12px;
+    padding: 2px;
+    border: 1px solid;
+}
